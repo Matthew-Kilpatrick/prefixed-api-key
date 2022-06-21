@@ -1,0 +1,23 @@
+{
+    "name": "matthewkilpatrick/prefixed-api-key",
+    "description": "PHP implementation of https://github.com/seamapi/prefixed-api-key",
+    "type": "library",
+    "require": {
+        "tuupola/base58": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MatthewKilpatrick\\PrefixedApiKey\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Matthew",
+            "email": "accounts@matthewkilpatrick.uk"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
